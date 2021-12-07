@@ -15,6 +15,7 @@ const {
 	login,
 } = require("./controller/userController");
 /* GET users listing. */
+//
 
 router.get("/", getAllUser);
 
