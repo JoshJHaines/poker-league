@@ -41,5 +41,3 @@ router.post("/profile", function (req, res) {
 router.delete("/delete-user-by-id/:id", deleteUserById);
 
 module.exports = router;
-
-
